@@ -5,7 +5,7 @@
 This project involves analyzing and simulating data from a Dual Active Bridge (DAB) converter using Psim. The DAB converter is a type of power converter commonly used for efficient energy transfer between two DC voltage sources. The focus of this simulation is on the transfer of energy from the low voltage side (V_L) to the high voltage side (V_H).
 
 <div align="center">
-  <img src="/taller3/project_root/results/figures/DAB.png" alt="convertidor"/>
+  <img src="/results/figures/DAB.png" alt="convertidor"/>
 </div>
 
 <div align="center"> DAB converter and parameters  </div> 
@@ -29,7 +29,7 @@ The objective of this simulation is to study the behavior and efficiency of the 
 ## Project Structure
 
 <div align="center">
-  <img src="/taller3/project_root/results/figures/lista-archivos.png" alt="convertidor"/>
+  <img src="/results/figures/lista-archivos.png" alt="convertidor"/>
 </div>
 
 <div align="center"> Project Structure  </div> 
