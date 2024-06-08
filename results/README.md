@@ -8,6 +8,7 @@ This directory contains the output of the analysis and preprocessing scripts for
 ### Figures
 
 This subdirectory contains various plots generated during the analysis. Each plot provides visual insights into different aspects of the simulation data.
+
 **Time Series Plot (Vlow)**
 
 This plot shows the voltage (Vlow) of the converter. The voltage fluctuates over time, with a general upward trend and periodic fluctuations. These fluctuations could be caused by factors such as changes in load or switching events in the converter.
