@@ -44,6 +44,17 @@ However, it's important to note that the separability of the data may depend on 
 <div align="center"> Line Chart (VHigh)  </div> 
 <br>
 
+**Normalized Vlow Plot**
+
+This plot shows the variable Vlow over time, with the data normalized to fit a scale between 0 and 1. The normalization has been done to allow easier comparison between different variables. This makes it easier to visualize patterns and trends in the time series, providing a clear perspective of how Vlow varies over the simulation period.
+<div align="center">
+  <img src="/results/figures/normalized_time_series_plot.png" alt="convertidor"/>
+</div>
+
+<div align="center"> Normalized time series Vlow  </div> 
+<br>
+
+
 
 #### Files
 
