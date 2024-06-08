@@ -86,7 +86,7 @@ The Vlow variable demonstrates high consistency and stability, making it a good 
 
 **Mean Squared Error (MSE)**:
 
-The MSE obtained is 0.0015535278, which is a relatively low value. This indicates that the linear regression model performs well in terms of accuracy in predicting the value of "Vlow" from the independent variables ("Time", "I_LK", "VHigh", "VLK").
+The MSE obtained is 0.10163277151676858, which is a relatively low value. This indicates that the linear regression model performs well in terms of accuracy in predicting the value of "Vlow" from the independent variables ("Time", "I_LK", "VHigh", "VLK").
 
 **Coefficient of Determination (R^2)**:
 
