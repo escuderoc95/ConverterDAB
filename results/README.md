@@ -72,10 +72,53 @@ This PDF report compiles all the results from the analysis and preprocessing scr
 
 <div align="center"> Documento pdf  </div> 
 <br>
+
 - *Show data first 5 lines*: The first few rows of the DataFrame to provide a quick overview of the data structure.
+  
 - *Statistical Analysis*: Summary statistics for the filtered data within a specific time range.
-- *Plots*: Visualizations including time series, area charts, and line charts.
+
+  **Table 1: Statistics of Filtered Data**
+  
+    |       |   Time   |   I_LK   |  VHigh  |  Vlow   |   VLK   |
+  |:-----:|:--------:|:--------:|:-------:|:-------:|:-------:|
+  | count | 400.000000 | 400.000000 | 400.000000 | 400.000000 | 400.000000 |
+  | mean  | 0.006998   | 0.501450   | 0.028634   | 7.515296   | 0.496700   |
+  | std   | 0.000578   | 0.282367   | 0.003058   | 0.209851   | 0.309936   |
+  | min   | 0.006000   | 0.015010   | 0.023220   | 6.931500   | 0.167117   |
+  | 25%   | 0.006499   | 0.254926   | 0.025727   | 7.367886   | 0.186799   |
+  | 50%   | 0.006998   | 0.501030   | 0.028683   | 7.558694   | 0.502576   |
+  | 75%   | 0.007496   | 0.748246   | 0.031346   | 7.648890   | 0.806880   |
+  | max   | 0.007995   | 0.983349   | 0.034242   | 7.810822   | 0.824580   |
+  
+
+  **Table 2: Preprocessing Results**
+
+|                                |                      |
+|:------------------------------:|:--------------------:|
+| **Mean of Vlow:**              | 6.014398864457081    |
+| **Standard deviation of Vlow:**| 0.5885596907119182   |
+| **Coefficient of variation of Vlow:** | 0.0978584400496104 |
+| **Interquartile Range (IQR) of Vlow:** | 0.539257554651865  |
+| **Skewness of Vlow:**          | 0.539257554651865    |
+
+Vlow is moderately separable.
+
 - *Normalization Results*: Statistical summaries and plots of the normalized data.
+
+  **Table 3: Normalized Data - Statistics of Filtered Data**
+
+|       |   Time   |   I_LK   |  VHigh  |  Vlow   |   VLK   |
+|:-----:|:--------:|:--------:|:-------:|:-------:|:-------:|
+| count | 400.000000 | 400.000000 | 400.000000 | 400.000000 | 400.000000 |
+| mean  | 0.006998   | 0.501450   | 0.028634   | 0.935750   | 0.496700   |
+| std   | 0.000578   | 0.282367   | 0.003058   | 0.026129   | 0.309936   |
+| min   | 0.006000   | 0.015010   | 0.023220   | 0.863060   | 0.167117   |
+| 25%   | 0.006499   | 0.254926   | 0.025727   | 0.917396   | 0.186799   |
+| 50%   | 0.006998   | 0.501030   | 0.028683   | 0.941154   | 0.502576   |
+| 75%   | 0.007496   | 0.748246   | 0.031346   | 0.952384   | 0.806880   |
+| max   | 0.007995   | 0.983349   | 0.034242   | 0.972547   | 0.824580   |
+
+    
 - *Linear Regression Analysis*: Results of the regression model, including mean squared error (MSE) and coefficient of determination (R^2).
 
 #### To analyze the results of separability where CV, IQR and Skewness are present, we explain as follows:
