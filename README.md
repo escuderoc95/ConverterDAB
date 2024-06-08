@@ -67,6 +67,29 @@ The PDF report includes:
 - Preprocessing results, including statistical analysis and data normalization.
 - Results of the linear regression analysis.
 
+#### References
+
+ [1] Kannan Thirugnanam, Mohamed Shawky El Moursi, Vinod Khadkikar, Hatem H. Zeineldin,
+and Mohamed Al Hosani. Energy management of grid interconnected multimicrogrids
+based on p2p energy exchange: A data driven approach. IEEE Transactions
+on Power Systems, 36:1546–1562, 3 2021.
+
+[2] Umamaheswararao Vuyyuru, Suman Maiti, and Chandan Chakraborty. Active power
+flow control between dc microgrids. IEEE Transactions on Smart Grid, 10:5712–5723,
+9 2019.
+
+[3] Lei QIAO, Xialin LI, Di HUANG, Li GUO, Yutao XU, Zhukui TAN, and Chengshan
+WANG. Coordinated control for medium voltage dc distribution centers with flexibly
+interlinked multiple microgrids. Journal of Modern Power Systems and Clean Energy,
+7:599–611, 5 2019.
+
+[4] Xialin Li, Li Guo, Yunwei Li, Chao Hong, Ye Zhang, Zhen Guo, Di Huang, and
+Chengshan Wang. Flexible interlinking and coordinated power control of multiple dc
+microgrids clusters. IEEE Transactions on Sustainable Energy, 9:904–915, 4 2018.
+
+[5] Eduard Bullich-Massagu´e, Francisco D´ıaz-Gonz´alez, M`onica Arag¨u´es-Pe˜nalba, Francesc
+Girbau-Llistuella, Pol Olivella-Rosell, and Andreas Sumper. Microgrid clustering architectures.
+Applied Energy, 212:340–361, 2 2018
 ## Setup and Installation
 
 ### Prerequisites
@@ -83,3 +106,5 @@ All required Python packages are listed in the requirements.txt file. To install
 
 ```sh
 pip install -r requirements.txt
+
+
