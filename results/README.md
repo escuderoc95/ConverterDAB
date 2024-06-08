@@ -12,9 +12,23 @@ This subdirectory contains various plots generated during the analysis. Each plo
 
 This plot shows the voltage (Vlow) of the converter. The voltage fluctuates over time, with a general upward trend and periodic fluctuations. These fluctuations could be caused by factors such as changes in load or switching events in the converter.
 
+<div align="center">
+  <img src="/results/figures/time_series_plot.png" alt="convertidor"/>
+</div>
+
+<div align="center"> Time Series (Vlow)  </div> 
+<br>
+
 **Area Chart (I_LK)**
 
 This plot represents the current (I_LK) flowing through the inductor using an area chart. The area under the curve represents the total energy stored in the inductor. The current fluctuates over time, with periods of high and low current.
+
+<div align="center">
+  <img src="/results/figures/area_chart.png" alt="convertidor"/>
+</div>
+
+<div align="center"> Area Chart (I_LK)  </div> 
+<br>
 
 **Line Chart (VHigh)**
 
@@ -22,6 +36,14 @@ This plot shows the voltage (VHigh)of the converter. stabilizing the voltage at 
 
 The plots and the relationships between the variables, it appears that the data is separable to some extent. The time series plots of Vlow, I_LK, and VHigh each capture distinct aspects of the converter's behavior, and the relationships between these variables provide additional insights into the system dynamics.
 However, it's important to note that the separability of the data may depend on the specific operating conditions and parameters of the DAB converter.
+
+<div align="center">
+  <img src="/results/figures/line_chart.png" alt="convertidor"/>
+</div>
+
+<div align="center"> Line Chart (VHigh)  </div> 
+<br>
+
 
 #### Files
 
