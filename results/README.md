@@ -4,7 +4,6 @@
 
 This directory contains the output of the analysis and preprocessing scripts for the DAB converter simulation data. The results include statistical summaries, visualizations, and comprehensive PDF reports generated from the simulation data.
 
-![Texto alternativo](https://drive.google.com/file/d/1RNXWi2Sf_FNoJyuDraw9N_hdTPns9_R9/view?usp=sharing)
 
 ### Figures
 
