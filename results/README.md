@@ -55,7 +55,12 @@ However, it's important to note that the separability of the data may depend on 
 ### Analysis_results.pdf
 
 This PDF report compiles all the results from the analysis and preprocessing scripts. It includes:
+<div align="center">
+  <img src="/results/figures/pdf.png" alt="convertidor"/>
+</div>
 
+<div align="center"> Documento pdf  </div> 
+<br>
 - *Show data first 5 lines*: The first few rows of the DataFrame to provide a quick overview of the data structure.
 - *Statistical Analysis*: Summary statistics for the filtered data within a specific time range.
 - *Plots*: Visualizations including time series, area charts, and line charts.
